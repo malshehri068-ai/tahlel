@@ -3,3 +3,5 @@ requests>=2.32
 beautifulsoup4>=4.12
 reportlab>=4.2
 openai>=1.50
+arabic-reshaper>=3.0
+python-bidi>=0.4.2
