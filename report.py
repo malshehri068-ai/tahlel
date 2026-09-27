@@ -18,8 +18,8 @@ except ImportError:
     get_display = None
 
 BASE_DIR = Path(__file__).resolve().parent
-FONT_PATH = BASE_DIR / "fonts" / "NotoNaskhArabic-Regular.ttf"
-FONT_BOLD_PATH = BASE_DIR / "fonts" / "NotoNaskhArabic-Regular.ttf"
+FONT_PATH = BASE_DIR / "NotoNaskhArabic-Regular.ttf"
+FONT_BOLD_PATH = BASE_DIR / "NotoNaskhArabic-Regular.ttf"
 
 pdfmetrics.registerFont(TTFont("TahlelArabic", str(FONT_PATH)))
 pdfmetrics.registerFont(TTFont("TahlelArabicBold", str(FONT_BOLD_PATH)))
